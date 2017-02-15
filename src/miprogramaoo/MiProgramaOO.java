@@ -17,14 +17,25 @@ public class MiProgramaOO {
     public static void main(String[] args) {
         
         
-        Persona juan = null;
-        juan = new Persona();
+        Persona juan = new Persona();
         juan.edad = 23;
-        
+        juan.estatura = 1.55;
+        juan.nombre = "Juan Alberto";
+        juan.procedencia = "Hacienda Nueva";
+        juan.sexo = 'm';
+        juan.peso = 87.5;
         
         Persona maria = new Persona(); 
+        maria.edad = 11;
+        maria.estatura = 1.90;
+        maria.nombre = "Maria Guadalupe";
+        maria.procedencia = "El molino";
+        maria.sexo = 'f';
+        maria.peso = 45;
+        
         Persona miguelito = new Persona(); 
         
+        System.out.println();
                 
     }
     

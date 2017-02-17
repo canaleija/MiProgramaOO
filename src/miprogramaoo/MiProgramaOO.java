@@ -24,29 +24,15 @@ public class MiProgramaOO {
         juan.procedencia = "Hacienda Nueva";
         juan.sexo = 'm';
         juan.peso = 87.5;
-        
-        juan.saludar();
+       
+      
         
         Persona maria = new Persona("María Guadalupe",
                          11, 45, 1.90, 'f', "El molino"); 
-        maria.edad = 45;
-        maria.estatura = 1.56;
-        maria.nombre = "Maria Guadalupeeee";
-        maria.procedencia = "Trancoso";
-        maria.sexo = 'f';
-        maria.peso = 78;
         
-        maria.saludar();
-        
-        Persona miguelito = new Persona();
-        miguelito.edad = 18;
-        miguelito.estatura = 1.70;
-        miguelito.nombre = "Martin Barraza";
-        miguelito.procedencia = "La Benito";
-        miguelito.sexo ='M';
-        miguelito.peso = 70;
-        
-        miguelito.saludar();
+       
+        Persona clon_Maria = new Persona(maria);
+       
         
         System.out.println();
                 

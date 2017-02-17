@@ -25,15 +25,28 @@ public class MiProgramaOO {
         juan.sexo = 'm';
         juan.peso = 87.5;
         
-        Persona maria = new Persona(); 
-        maria.edad = 11;
-        maria.estatura = 1.90;
-        maria.nombre = "Maria Guadalupe";
-        maria.procedencia = "El molino";
-        maria.sexo = 'f';
-        maria.peso = 45;
+        juan.saludar();
         
-        Persona miguelito = new Persona(); 
+        Persona maria = new Persona("María Guadalupe",
+                         11, 45, 1.90, 'f', "El molino"); 
+        maria.edad = 45;
+        maria.estatura = 1.56;
+        maria.nombre = "Maria Guadalupeeee";
+        maria.procedencia = "Trancoso";
+        maria.sexo = 'f';
+        maria.peso = 78;
+        
+        maria.saludar();
+        
+        Persona miguelito = new Persona();
+        miguelito.edad = 18;
+        miguelito.estatura = 1.70;
+        miguelito.nombre = "Martin Barraza";
+        miguelito.procedencia = "La Benito";
+        miguelito.sexo ='M';
+        miguelito.peso = 70;
+        
+        miguelito.saludar();
         
         System.out.println();
                 

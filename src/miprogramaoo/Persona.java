@@ -31,7 +31,28 @@ public class Persona {
     
     }
     
+    // sobre cargar el constructor 
+    public Persona(String nombre, int edad,
+                double peso,double estatura,char sexo,
+                String procedencia){
+      this.nombre = nombre;
+      this.edad = edad; 
+      this.peso = peso; 
+      this.estatura = estatura; 
+      this.sexo = sexo; 
+      this.procedencia = procedencia; 
+      
+    }
     
+    public Persona(Persona persona){
+      this.nombre = persona.nombre;
+      this.edad = persona.edad;
+      this.estatura = persona.estatura;
+      this.procedencia = persona.procedencia;
+      this.sexo = persona.sexo;
+      this.peso = persona.peso;
+    }
+        
     void saludar(){
         // a la persona que salude
         System.out.println("Hola! soy "+nombre);

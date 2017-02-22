@@ -18,12 +18,13 @@ public class MiProgramaOO {
         
         
         Persona juan = new Persona();
-        juan.edad = 23;
+        juan.setEdad(23);
         juan.estatura = 1.55;
         juan.nombre = "Juan Alberto";
         juan.procedencia = "Hacienda Nueva";
         juan.sexo = 'm';
         juan.peso = 87.5;
+        System.out.println("La edad de juan es "+juan.getEdad());
        
       
         

@@ -17,25 +17,10 @@ public class MiProgramaOO {
     public static void main(String[] args) {
         
         
-        Persona juan = new Persona();
-        juan.setEdad(23);
-        juan.estatura = 1.55;
-        juan.nombre = "Juan Alberto";
-        juan.procedencia = "Hacienda Nueva";
-        juan.sexo = 'm';
-        juan.peso = 87.5;
-        System.out.println("La edad de juan es "+juan.getEdad());
+        Alumno erick = new Alumno(231, "upiiz", "primero", "Erick", 23, 45.5, 1.78, 'm', "Guadalupe");
+                erick.setNombre("Erick Gurrola");
        
-      
-        
-        Persona maria = new Persona("María Guadalupe",
-                         11, 45, 1.90, 'f', "El molino"); 
-        
-       
-        Persona clon_Maria = new Persona(maria);
-       
-        
-        System.out.println();
+        System.out.println("Hola, soy "+erick.getNombre());
                 
     }
     

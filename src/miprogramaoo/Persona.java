@@ -21,15 +21,15 @@ public class Persona {
     // definir comportamientos (metodos)
     
     // METODO CONSTRUCTOR defecto
-    public Persona(){
-      nombre = "";
-      edad = 0;
-      peso = 0;
-      estatura = 0;
-      sexo = 'i';
-      procedencia = "desconocido";
-    
-    }
+//    public Persona(){
+//      nombre = "";
+//      edad = 0;
+//      peso = 0;
+//      estatura = 0;
+//      sexo = 'i';
+//      procedencia = "desconocido";
+//    
+//    }
     
     // sobre cargar el constructor 
     public Persona(String nombre, int edad,

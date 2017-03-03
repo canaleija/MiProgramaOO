@@ -53,7 +53,7 @@ public class Persona {
       this.peso = persona.peso;
     }
         
-    void saludar(){
+    public void saludar(){
         // a la persona que salude
         System.out.println("Hola! soy "+getNombre());
     }

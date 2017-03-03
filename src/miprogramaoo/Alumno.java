@@ -58,6 +58,11 @@ public class Alumno extends Persona {
         this.semestre = semestre;
     }
 
+    @Override
+    public void saludar(){
+        // a la persona que salude
+        System.out.println("Hola! soy "+getNombre()+" y estudio en "+campus);
+    }
     
 
     
